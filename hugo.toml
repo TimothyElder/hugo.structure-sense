@@ -69,7 +69,7 @@ copyright = "&copy; Copyright 2025 Structure and Sense"
 [[params.author.social]]
   name = "Custom social link1"
   iclass = "fa-brands fa-github"
-  url = "https://example.com/whiteplain"
+  url = "https://github.com/TimothyElder/hugo.structure-sense"
 
 [[params.author.social]]
   name = "Custom social link2"
@@ -92,23 +92,33 @@ copyright = "&copy; Copyright 2025 Structure and Sense"
   identifier = "aims"
   url = "/aims/"
 [[menu.main]]
-  name = "Categories"
+  name = "Contact"
   weight = 3
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "Tags"
-  weight = 4
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Archives"
-  weight = 5
-  identifier = "archives"
-  url = "/archives/"
+  identifier = "contact"
+  url = "/contact/"
+#[[menu.main]]
+#  name = "Categories"
+#  weight = 4
+#  identifier = "categories"
+#  url = "/categories/"
+#[[menu.main]]
+#  name = "Tags"
+#  weight = 5
+#  identifier = "tags"
+#  url = "/tags/"
+#[[menu.main]]
+#  name = "Archives"
+#  weight = 6
+#  identifier = "archives"
+#  url = "/archives/"
 
 [[menu.footer]]
   name = "About"
   weight = 1
   identifier = "about"
   url = "/about/"
+[[menu.footer]]
+  name = "Contact"
+  weight = 2
+  identifier = "contact"
+  url = "/contact/"
