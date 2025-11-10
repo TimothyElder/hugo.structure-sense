@@ -12,7 +12,7 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright 2025 Sense & Structure"
+copyright = "&copy; Copyright 2025 Structure $ Sense"
 
 [params]
   # useCDN = false
