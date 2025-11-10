@@ -1,0 +1,5 @@
+# hugo.toml
+baseURL = "https://structureandsense.org/"
+languageCode = "en"
+title = "Structure & Sense"
+enableRobotsTXT = true
