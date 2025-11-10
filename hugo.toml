@@ -12,7 +12,7 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright 2017 Foo Bar"
+copyright = "&copy; Copyright 2025 Structure and Sense"
 
 [params]
   # useCDN = false
@@ -82,25 +82,30 @@ copyright = "&copy; Copyright 2017 Foo Bar"
   series = "series"
 
 [[menu.main]]
-  name = "Categories"
+  name = "About"
   weight = 1
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "Aims and Scpe"
+  weight = 2
+  identifier = "aims"
+  url = "/aims/"
+[[menu.main]]
+  name = "Categories"
+  weight = 3
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
   name = "Tags"
-  weight = 2
+  weight = 4
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
   name = "Archives"
-  weight = 3
+  weight = 5
   identifier = "archives"
   url = "/archives/"
-[[menu.main]]
-  name = "About"
-  weight = 4
-  identifier = "about"
-  url = "/about/"
 
 [[menu.footer]]
   name = "About"

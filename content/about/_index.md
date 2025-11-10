@@ -1,25 +1,13 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+title = "Journal Overview"
+description = "Description of the journal"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Editorial Board"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+*Structure & Sense* is an open-access, peer-reviewed journal publishing social-scientific and humanistic research on how technological and organizational systems shape meaning, work, and life in modernity. The journal’s aim is to understand how large-scale processes—automation, bureaucratization, datafication, and the rationalization of institutions—reorient human experience and transform the conditions of understanding itself.
 
-Hugo makes use of a variety of open source projects including:
+We welcome theoretical and empirical contributions from across the social sciences and humanities that engage the intersection of structure and sense: how social orders organize perception, action, and purpose. Topics of interest include the transformation of work and occupations, automation and artificial intelligence, the organization of expertise, the moral and emotional consequences of rationalized systems, and the changing foundations of human well-being in an increasingly technical world.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+*Structure & Sense* encourages scholarship that is conceptually ambitious, methodologically transparent, and willing to cross disciplinary boundaries. Our goal is to provide a venue for work that addresses the existential and interpretive dimensions of modern life without abandoning empirical rigor or sociological depth.
