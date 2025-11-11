@@ -7,42 +7,21 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; Copyright 2025 Structure and Sense</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <title>Editorial Team</title>
+      <link>http://localhost:1313/editorial-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/editorial-team/</guid>
+      <description>&lt;p&gt;We are assembling a focused team to launch &lt;em&gt;Structure &amp;amp; Sense&lt;/em&gt;. Short bios and affiliations below.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <title>Policies</title>
+      <link>http://localhost:1313/policies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/policies/</guid>
+      <description>&lt;h2 id=&#34;editorial-policy&#34;&gt;Editorial Policy&lt;/h2&gt;&#xA;&lt;p&gt;S&amp;amp;S does not accept submissions that include human subjects research that involves the administration of novel drug or medical therapies.&lt;/p&gt;&#xA;&lt;p&gt;IF accepted into S&amp;amp;S authors retain ownership of their article, but S&amp;amp;S reserves the right to remove publications from its catalog if an article is later discovered to contain erroneous findings, defamatory claims, or for any other reason that is relevant to the standing of the journal.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ethics-cope-aligned&#34;&gt;Ethics (COPE-aligned)&lt;/h2&gt;&#xA;&lt;h2 id=&#34;conflicts-of-interest&#34;&gt;Conflicts of interest&lt;/h2&gt;&#xA;&lt;h2 id=&#34;data-availability&#34;&gt;Data availability&lt;/h2&gt;&#xA;&lt;h2 id=&#34;human-subjects-statement&#34;&gt;Human subjects statement&lt;/h2&gt;&#xA;&lt;h2 id=&#34;preprints-allowed-recommend-osfarxivssrn&#34;&gt;Preprints allowed (recommend OSF/ArXiv/SSRN)&lt;/h2&gt;&#xA;&lt;p&gt;S&amp;amp;S accepts articles that have appeared as pre-prints under the following conditions:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,25 @@
+members:
+  - slug: timothy-elder
+    name: Timothy B. Elder
+    title: Editor-in-Chief
+    affiliation: Dartmouth Institute
+    photo: timothy-elder.jpg
+    url: "https://structureandsense.org/about/"
+  - slug: austin-lee
+    name: Austin Lee
+    title: Managing Editor
+    affiliation: McGill University
+    photo: balfour-mount.jpg
+    url: ""
+  - slug: emile-durkheim
+    name: Emile Durkheim
+    title: Web Development
+    affiliation: University of Paris
+    photo: emile-durkheim.jpg
+    url: ""
+
+advisors:
+  - name: Jane Doe
+    affiliation: University of Y
+  - name: John Smith
+    affiliation: Institute Z

@@ -50,6 +50,11 @@ blockquote blockquote blockquote blockquote {
   border-left-color: lightgray;
 }
 
+/* Global font variable */
+:root {
+  --title-font: "Jost", "Avenir Next", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 /* Site header */
 .site-header {
   max-width: 900px;
@@ -79,8 +84,10 @@ blockquote blockquote blockquote blockquote {
   margin: 0;
   margin-top: 10px;
   padding: 0;
-  font-weight: normal;
+  font-weight: 600;               /* slightly bolder for Jost */
+  font-family: var(--title-font); /* new line */
 }
+
 .site-navi-items {
   -webkit-flex-grow: 0;
   flex-grow: 0;
@@ -778,6 +785,55 @@ background-color: #FF6600
 .resp-sharing-button--bluesky:active {
   background-color: #0675DE;
   border-color: #0675DE;
+}
+
+
+/* For Editorial Team Cards */
+.team { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+.team__grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); gap: 1.25rem; }
+.team-card { display: grid; grid-template-columns: 92px 1fr; gap: 1rem; padding: 1rem; border: 1px solid #ddd; border-radius: 12px; }
+.team-card__media img, .team-card__placeholder { width: 92px; height: 92px; border-radius: 8px; object-fit: cover; background: #f2f2f2; }
+.team-card__role { margin: 0; font-size: 0.85rem; text-transform: uppercase; letter-spacing: .04em; color: #666; }
+.team-card__name { margin: .15rem 0 .25rem 0; font-size: 1.1rem; }
+.team-card__name a { text-decoration: none; }
+.team-card__affil { margin: 0; color: #444; }
+.team__advisors { margin-top: 2rem; }
+.advisors { width: 100%; border-collapse: collapse; }
+.advisors th, .advisors td { padding: .6rem .5rem; border-bottom: 1px solid #eee; text-align: left; }
+
+/* submit button styling */
+
+.btn-submit {
+  display: inline-block;
+  background-color: #0059b2;      /* blue */
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.btn-submit:hover,
+.btn-submit:focus {
+  background-color: #00418a;
+}
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.btn-submit {
+  background-color: #0059b2;
+  color: #fff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+.btn-submit:hover,
+.btn-submit:focus {
+  background-color: #00418a;
 }
 
 /* === sharingbuttons.io end === */

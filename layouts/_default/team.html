@@ -1,0 +1,23 @@
+{{ define "title" }}Editorial Team | {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<section class="team">
+  <h1>Editorial Team</h1>
+
+  {{ with .Site.Data.team }}
+    <div class="team__grid">
+      {{ range .members }}
+        {{ partial "team-card.html" . }}
+      {{ end }}
+    </div>
+
+    <h2>Advisory Board</h2>
+    <table class="advisors"><tbody>
+      {{ range .advisors }}
+        <tr><td>{{ .name }}</td><td>{{ .affiliation }}</td></tr>
+      {{ end }}
+    </tbody></table>
+  {{ else }}
+    <p class="notice">team.yaml not found or invalid under <code>/data</code>.</p>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,8 +1,17 @@
 {{ define "main" }}
-    <div class="main" role="main">
+  <div class="main" role="main">
     <article class="article">
-    {{ .Content }}
-    {{ partial "forms/submission.html" . }}
-  </article>
+      <h1 class="article-title">{{ .Title }}</h1>
+      {{ .Content }}
+      {{/*  {{ partial "forms/submission.html" . }}  */}}
+
+      <p style="margin-top:2rem;">
+        <a href="https://ojs.structureandsense.org"
+           class="btn-submit"
+           target="_blank" rel="noopener">
+          Submit
+        </a>
+      </p>
+    </article>
   </div>
 {{ end }}

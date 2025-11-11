@@ -25,6 +25,10 @@
 
   <script src="/js/script.js"></script>
   <script src="/js/custom.js"></script>
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
   <script defer src="/fontawesome/all.min.js"></script>
 </head>
 
@@ -35,9 +39,9 @@
     <h1 class="site-title"><a href="/">Structure &amp; Sense</a></h1>
     <ul class="site-navi-items">
       <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
-      <li class="site-navi-item-aims"><a href="/aims/" title="Aims and Scpe">Aims and Scpe</a></li>
-      <li class="site-navi-item-contact"><a href="/contact/" title="Contact">Contact</a></li>
+      <li class="site-navi-item-aims"><a href="/aims/" title="Aims and Scope">Aims and Scope</a></li>
       <li class="site-navi-item-submit"><a href="/submit/" title="Submit">Submit</a></li>
+      <li class="site-navi-item-contact"><a href="/contact/" title="Contact">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -62,62 +66,6 @@
 
   <p><button type="submit">Send</button></p>
 </form>
-    <form name="article-submission"
-      method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
-      enctype="multipart/form-data"
-      action="/thanks/">
-
-  
-  <input type="hidden" name="form-name" value="article-submission">
-  <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
-
-  <p>
-    <label>First Name:
-      <input type="text" name="first_name" required>
-    </label>
-  </p>
-
-  <p>
-    <label>Last Name:
-      <input type="text" name="last_name" required>
-    </label>
-  </p>
-
-  <p>
-    <label>Institutional Affiliation:
-      <input type="text" name="affiliation" required>
-    </label>
-  </p>
-
-  <p>
-    <label>Job Role / Position:
-      <input type="text" name="job_role" required>
-    </label>
-  </p>
-
-  <p>
-    <label>Contact Email:
-      <input type="email" name="email" required>
-    </label>
-  </p>
-
-  <p>
-    <label>Manuscript Upload (PDF only):
-      <input type="file" name="manuscript"
-             accept="application/pdf"
-             required>
-    </label>
-  </p>
-
-  
-  
-
-  <p>
-    <button type="submit">Submit Article</button>
-  </p>
-</form>
   </article>
   </div>
 
@@ -132,6 +80,7 @@
     </li>
     <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
     <li class="site-footer-item-contact"><a href="/contact/" title="Contact">Contact</a></li>
+    <li class="site-footer-item-policies"><a href="/pages/policies/" title="Policies">Policies</a></li>
   </ul>
   <div class="powerdby">
     Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
