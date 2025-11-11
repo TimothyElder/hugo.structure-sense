@@ -73,5 +73,7 @@
     <loc>http://localhost:1313/aims/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/submit/</loc>
   </url>
 </urlset>

@@ -1,0 +1,56 @@
+<form name="article-submission"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      enctype="multipart/form-data"
+      action="/thanks/">
+
+  <!-- Required hidden input so Netlify detects the form -->
+  <input type="hidden" name="form-name" value="article-submission">
+  <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
+
+  <p>
+    <label>First Name:
+      <input type="text" name="first_name" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Last Name:
+      <input type="text" name="last_name" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Institutional Affiliation:
+      <input type="text" name="affiliation" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Job Role / Position:
+      <input type="text" name="job_role" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Contact Email:
+      <input type="email" name="email" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Manuscript Upload (PDF only):
+      <input type="file" name="manuscript"
+             accept="application/pdf"
+             required>
+    </label>
+  </p>
+
+  <!-- Optional: reCAPTCHA -->
+  <!-- <div data-netlify-recaptcha="true"></div> -->
+
+  <p>
+    <button type="submit">Submit Article</button>
+  </p>
+</form>
