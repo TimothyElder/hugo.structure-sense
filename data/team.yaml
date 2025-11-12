@@ -1,15 +1,15 @@
 members:
-  - slug: timothy-elder
-    name: Timothy B. Elder
+  - slug: talcott-parsons
+    name: Talcott Parsons
     title: Editor-in-Chief
-    affiliation: Dartmouth Institute
-    photo: timothy-elder.jpg
+    affiliation: Harvard University
+    photo: talcott-parsons.png
     url: "https://structureandsense.org/about/"
-  - slug: austin-lee
-    name: Austin Lee
+  - slug: max-weber
+    name: Max Weber
     title: Managing Editor
-    affiliation: McGill University
-    photo: balfour-mount.jpg
+    affiliation: University of Vienna
+    photo: weber.jpg
     url: ""
   - slug: emile-durkheim
     name: Emile Durkheim
