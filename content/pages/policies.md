@@ -1,5 +1,7 @@
 ---
 title: Policies
+slug: "policies"
+draft: false
 ---
 
 <!-- one page each -->

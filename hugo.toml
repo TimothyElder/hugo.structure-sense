@@ -134,4 +134,4 @@ pages = "/:slug/"
   name = "Policies"
   weight = 3
   identifier = "policies"
-  url = "/pages/policies/"
+  url = "/policies/"

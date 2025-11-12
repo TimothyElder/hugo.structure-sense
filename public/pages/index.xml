@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Editorial Team</title>
-      <link>http://localhost:1313/editorial-team/</link>
+      <link>http://localhost:1313/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/editorial-team/</guid>
-      <description>&lt;p&gt;We are assembling a focused team to launch &lt;em&gt;Structure &amp;amp; Sense&lt;/em&gt;. Short bios and affiliations below.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/team/</guid>
+      <description>&lt;p&gt;We are assembling a focused team to launch &lt;em&gt;Structure &amp;amp; Sense&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Policies</title>
