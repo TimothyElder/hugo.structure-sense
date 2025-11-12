@@ -1,0 +1,25 @@
+members:
+  - slug: talcott-parsons
+    name: Talcott Parsons
+    title: Editor-in-Chief
+    affiliation: Harvard University
+    photo: talcott-parsons.png
+    url: "https://structureandsense.org/about/"
+  - slug: max-weber
+    name: Max Weber
+    title: Managing Editor
+    affiliation: University of Vienna
+    photo: weber.jpg
+    url: ""
+  - slug: emile-durkheim
+    name: Emile Durkheim
+    title: Web Development
+    affiliation: University of Paris
+    photo: emile-durkheim.jpg
+    url: ""
+
+advisors:
+  - name: Jane Doe
+    affiliation: University of Y
+  - name: John Smith
+    affiliation: Institute Z

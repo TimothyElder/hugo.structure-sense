@@ -1,0 +1,15 @@
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks/">
+  <!-- Required hidden input so Netlify reliably detects the form -->
+  <input type="hidden" name="form-name" value="contact" />
+
+  <p><label>Your Name: <input type="text" name="name" required></label></p>
+  <p><label>Your Email: <input type="email" name="email" required></label></p>
+  <p>
+  </p>
+  <p><label>Message: <textarea name="message" required></textarea></label></p>
+
+  <!-- Optional reCAPTCHA -->
+  <div data-netlify-recaptcha="true"></div>
+
+  <p><button type="submit">Send</button></p>
+</form>

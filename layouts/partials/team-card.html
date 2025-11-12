@@ -1,0 +1,17 @@
+{{/* layouts/partials/team-card.html */}}
+{{ $src := printf "team/%s" .photo }}
+{{ $res := resources.Get $src }}
+<article class="team-card">
+  <div class="team-card__media">
+    {{ if $res }}
+      <img src="{{ $res.RelPermalink }}" alt="{{ .name }}" style="width:92px;height:92px;object-fit:cover">
+    {{ else }}
+      <div class="team-card__placeholder" aria-hidden="true"></div>
+    {{ end }}
+  </div>
+  <div class="team-card__body">
+    <p class="team-card__role">{{ .title }}</p>
+    <h3 class="team-card__name">{{ .name }}</h3>
+    <p class="team-card__affil">{{ .affiliation }}</p>
+  </div>
+</article>

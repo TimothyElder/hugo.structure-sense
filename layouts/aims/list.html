@@ -1,0 +1,8 @@
+{{ define "main" }}
+    <div class="main" role="main">
+    <article class="article">
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ .Content }}  <!-- this prints content/_index.md -->
+  </article>
+  </div>
+{{ end }}
