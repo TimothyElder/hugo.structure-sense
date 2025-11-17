@@ -1,6 +1,7 @@
 <div
   class="typed-text"
-  data-typed-lines="{{ .Get "lines" }}"
   data-typed-speed="{{ .Get "speed" | default "50" }}"
   data-typed-pause="{{ .Get "pause" | default "600" }}"
-></div>
+>
+  {{- .Inner | safeHTML -}}
+</div>

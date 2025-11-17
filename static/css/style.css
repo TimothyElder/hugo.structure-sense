@@ -857,3 +857,20 @@ background-color: #FF6600
   padding-left: 1rem;
   
 }
+
+
+.typed-text {
+  font-family: inherit;
+  white-space: pre-wrap;
+  border-right: 2px solid currentColor;
+  animation: cursorBlink 0.7s steps(1) infinite;
+}
+
+@keyframes cursorBlink {
+  50% { border-color: transparent; }
+}
+
+.highlight {
+  color: #c00;
+  font-weight: 600;
+}

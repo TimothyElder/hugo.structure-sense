@@ -21,13 +21,16 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-
-  const elements = document.querySelectorAll("[data-typed-lines]");
+  const elements = document.querySelectorAll(".typed-text");
 
   elements.forEach((el) => {
-    const lines = el.dataset.typedLines.split("|").map(s => s.trim());
     const speed = parseInt(el.dataset.typedSpeed || "50", 10);
     const pause = parseInt(el.dataset.typedPause || "600", 10);
+
+    // Take the existing HTML as the source for lines, then clear it
+    const raw = el.innerHTML.trim();
+    const lines = raw.split(/<br\s*\/?>/i).map(s => s.trim());
+    el.innerHTML = "";
 
     let lineIndex = 0;
     let charIndex = 0;
@@ -35,23 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
     function typeLine() {
       const line = lines[lineIndex];
 
-      // If the next character begins an HTML tag, insert the whole tag at once.
-      if (line[charIndex] === "<") {
-        const end = line.indexOf(">", charIndex);
-        const tag = line.slice(charIndex, end + 1);
-        el.insertAdjacentHTML("beforeend", tag);
-        charIndex = end + 1;
-        setTimeout(typeLine, speed);
-        return;
-      }
-
-      // Otherwise add just one character
-      el.insertAdjacentText("beforeend", line[charIndex]);
-      charIndex++;
-
-      if (charIndex < line.length) {
-        setTimeout(typeLine, speed);
-      } else {
+      if (charIndex >= line.length) {
+        // done with this line
         lineIndex++;
         if (lineIndex < lines.length) {
           setTimeout(() => {
@@ -60,7 +48,21 @@ document.addEventListener("DOMContentLoaded", function () {
             typeLine();
           }, pause);
         }
+        return;
       }
+
+      // If the next character begins an HTML tag, insert the whole tag at once
+      if (line[charIndex] === "<") {
+        const end = line.indexOf(">", charIndex);
+        const tag = line.slice(charIndex, end + 1);
+        el.insertAdjacentHTML("beforeend", tag);
+        charIndex = end + 1;
+      } else {
+        el.insertAdjacentText("beforeend", line[charIndex]);
+        charIndex++;
+      }
+
+      setTimeout(typeLine, speed);
     }
 
     typeLine();
