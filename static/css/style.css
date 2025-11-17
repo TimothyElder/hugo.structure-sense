@@ -837,3 +837,23 @@ background-color: #FF6600
 }
 
 /* === sharingbuttons.io end === */
+
+.verse {
+  white-space: pre-wrap;
+  font-family: serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #ccc;
+}
+
+.attribution {
+  
+  
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  
+}

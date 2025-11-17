@@ -16,4 +16,17 @@ We welcome theoretical and empirical contributions from across the social scienc
 
 # How things are is not how they have to be
 
+{{< verse >}}
+Tho' much is taken, much abides; and tho'
+We are not now that strength which in old days
+Moved earth and heaven, that which we are, we are;
+One equal temper of heroic hearts,
+Made weak by time and fate, but strong in will
+To strive, to seek, to find, and not to yield.
+{{< /verse >}}
+
+{{< attribution >}}
+— Alfred, Lord Tennyson <em>Ulysses</em>
+{{< /attribution >}}
+
 We are a small team of scholars working to establish a new venue for scholarship. Your support and patience is greatly appreciated.

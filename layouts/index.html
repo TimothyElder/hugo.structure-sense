@@ -1,7 +1,26 @@
 {{ define "main" }}
     <div class="main" role="main">
     <article class="article">
+      <p id="typed-text"></p>
     {{ .Content }}  <!-- this prints content/_index.md -->
   </article>
   </div>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const text = "Welcome to Structure & Sense: A Journal of Meaning, Organization, and Technology.";
+  const speed = 50; // ms per character
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      document.getElementById("typed-text").textContent += text.charAt(i);
+      i++;
+      setTimeout(type, speed);
+    }
+  }
+
+  type();
+});
+</script>
 {{ end }}
