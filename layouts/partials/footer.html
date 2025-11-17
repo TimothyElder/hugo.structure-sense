@@ -18,3 +18,52 @@
   </div>
 </div>
 {{ template "_internal/google_analytics.html" . }}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const elements = document.querySelectorAll("[data-typed-lines]");
+
+  elements.forEach((el) => {
+    const lines = el.dataset.typedLines.split("|").map(s => s.trim());
+    const speed = parseInt(el.dataset.typedSpeed || "50", 10);
+    const pause = parseInt(el.dataset.typedPause || "600", 10);
+
+    let lineIndex = 0;
+    let charIndex = 0;
+
+    function typeLine() {
+      const line = lines[lineIndex];
+
+      // If the next character begins an HTML tag, insert the whole tag at once.
+      if (line[charIndex] === "<") {
+        const end = line.indexOf(">", charIndex);
+        const tag = line.slice(charIndex, end + 1);
+        el.insertAdjacentHTML("beforeend", tag);
+        charIndex = end + 1;
+        setTimeout(typeLine, speed);
+        return;
+      }
+
+      // Otherwise add just one character
+      el.insertAdjacentText("beforeend", line[charIndex]);
+      charIndex++;
+
+      if (charIndex < line.length) {
+        setTimeout(typeLine, speed);
+      } else {
+        lineIndex++;
+        if (lineIndex < lines.length) {
+          setTimeout(() => {
+            el.insertAdjacentHTML("beforeend", "<br>");
+            charIndex = 0;
+            typeLine();
+          }, pause);
+        }
+      }
+    }
+
+    typeLine();
+  });
+});
+</script>
