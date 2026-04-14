@@ -1,10 +1,10 @@
 members:
-  - slug: talcott-parsons
-    name: Talcott Parsons
+  - slug: timothy-elder
+    name: Timothy B. Elder
     title: Editor-in-Chief
-    affiliation: Harvard University
-    photo: talcott-parsons.png
-    url: "https://structureandsense.org/about/"
+    affiliation: Dartmouth College
+    photo: timothy-elder.jpg
+    url: "https://timothyelder.com/"
   - slug: max-weber
     name: Max Weber
     title: Managing Editor

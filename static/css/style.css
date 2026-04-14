@@ -849,15 +849,15 @@ background-color: #FF6600
 }
 
 .attribution {
-  
-  
   font-size: 1.05rem;
   line-height: 1.5;
   margin: 1.5rem 0;
   padding-left: 1rem;
-  
 }
 
+@keyframes cursorBlink {
+  50% { border-color: transparent; }
+}
 
 .typed-text {
   font-family: inherit;
@@ -866,11 +866,15 @@ background-color: #FF6600
   animation: cursorBlink 0.7s steps(1) infinite;
 }
 
-@keyframes cursorBlink {
-  50% { border-color: transparent; }
+.typed-text strong {
+  font-weight: 700;
 }
 
-.highlight {
+.typed-text em {
+  font-style: italic;
+}
+
+.typed-text .highlight {
   color: #c00;
   font-weight: 600;
 }

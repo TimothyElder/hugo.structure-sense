@@ -3,24 +3,28 @@ title: "Submit a Manuscript"
 draft: false
 ---
 
-**Article submissions to *Structure and Sense* are currently invite only. We hope to open submissions when we are set up.**
+**Submissions to *Structure and Sense* are currently by invitation only as we prepare our inaugural issue. Scholars interested in contributing are encouraged to contact the editors directly.**
 
 # Submission Types
 
-S&S focuses upon short manuscripts though we are happy to publish extended pieces. There is no word limit for our publications but we do encourage to concisely present their argument or research findings. Good writing is always a plus.
+*Structure & Sense* focuses on shorter manuscripts though we welcome extended pieces where the argument requires it. There is no strict word limit, but contributors are expected to present their argument or findings concisely and to write for an interdisciplinary audience without sacrificing precision.
 
-- Manuscripts that report original empirical research or conceptual analyses that advance thinking on the relationship between technology and human understanding.
-- Commentaries that present fresh perspectives on major public issues involving technology, work, and organizations or that respond to manuscripts published in the journal.
-- Review Essays that synthesize, analyze and provide context for multiple new publications.
-
-Submissions in plaintext and reproducible formats are highly encouraged, though initial submissions should be in PDF format.
+- **Research Articles** — manuscripts reporting original empirical research or advancing conceptual analysis on the relationship between rational systems and human meaning-making.
+- **Commentaries** — fresh perspectives on major public issues involving technology, work, and organizations, or responses to manuscripts published in the journal.
+- **Review Essays** — synthetic analyses that provide context for multiple recent publications in relevant fields.
 
 # Submission Guidelines
 
-Article submissions of any type should include the following material
+Submissions of any type should include the following:
 
-- A cover letter addressing the content of your manuscript
-- A title page with author information 
-- Anonymized draft of your manuscript for review.
+- A cover letter describing the manuscript and its contribution
+- A title page with full author information
+- An anonymized manuscript prepared for double-anonymous review
 
-*Structure & Sense* uses the [Open Journal System](https://pkp.sfu.ca/software/ojs/) for submissions; you can submit your manuscript by following the link below.
+*Structure & Sense* uses the [Open Journal System](https://pkp.sfu.ca/software/ojs/) for manuscript management. As we prepare our inaugural issue, prospective contributors are welcome to reach out directly before submitting formally.
+
+# Publication Policies
+
+*Structure & Sense* is an open-access journal. Authors retain copyright over their work, which is published under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Manuscripts should follow the Chicago Author-Date citation style. Contributors are encouraged to consult the [Chicago Manual of Style](https://www.chicagomanualofstyle.org/) for guidance.

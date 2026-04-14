@@ -4,8 +4,8 @@ Some custom styling info:
 
 ```
 {{< typing speed="50" pause="600" >}}
-Welcome to the <strong>site</strong>.<br>
-Explore our <em>stories</em>.<br>
+Welcome to <em>Structure & Sense: A Journal of Meaning, Organization, and Technology</em>.
+Explore our <em>stories</em>.
 Find <span class="highlight">your</span> next idea.
 {{< /typing >}}
 ```

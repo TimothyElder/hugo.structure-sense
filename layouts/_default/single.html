@@ -53,9 +53,9 @@
     </section>
     {{- end }}
 
-    {{ partial "share.html" . }}
+    {{/*  {{ partial "share.html" . }}  */}}
 
-    {{- if and .Site.Config.Services.Disqus.Shortname (or (not (isset .Params "comments")) (eq .Params.comments nil) .Params.comments) }}
+    {{/*  {{- if and .Site.Config.Services.Disqus.Shortname (or (not (isset .Params "comments")) (eq .Params.comments nil) .Params.comments) }}
     <div class="disqus-comments">
       {{ template "_internal/disqus.html" . }}
     </div>
@@ -77,5 +77,5 @@
       <li class="pager-older pager-noitem">Older &gt;</li>
       {{- end }}
     </ul>
-  </div>
+  </div>  */}}
 {{ end }}
