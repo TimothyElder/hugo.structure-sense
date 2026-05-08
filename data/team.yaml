@@ -1,15 +1,15 @@
 members:
   - slug: timothy-elder
     name: Timothy B. Elder
-    title: Editor-in-Chief
+    title: Co-Editor-in-Chief
     affiliation: Dartmouth College
     photo: timothy-elder.jpg
     url: "https://timothyelder.com/"
-  - slug: max-weber
-    name: Max Weber
-    title: Managing Editor
-    affiliation: University of Vienna
-    photo: weber.jpg
+  - slug: robin-michalon
+    name: Robin Michalon
+    title: Co-Editor-in-Chief
+    affiliation: École des Hautes Etudes en Sciences Sociales
+    photo: robin-michalon.jpg
     url: ""
   - slug: emile-durkheim
     name: Emile Durkheim
